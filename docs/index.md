@@ -6,6 +6,8 @@ Dự án này cung cấp các chủ đề [MkDocs](http://www.mkdocs.org) cho c�
 
 ## Cài Đặt & Sử Dụng
 
+<!-- [Chế độ tối / Chế độ sáng](<javascript:void(0);>) -->
+
 Cài đặt bộ sưu tập các chủ đề với pip, hy vọng là cách bạn đã cài đặt MkDocs.
 
     pip install mkdocs-bootswatch

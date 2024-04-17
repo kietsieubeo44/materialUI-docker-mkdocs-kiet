@@ -1,6 +1,4 @@
-site_name: Material UI Theme mkDocs
+    site_name: Material UI Theme mkDocs
+    theme:
+      name: material
 
-theme:
-  name: material
-  palette:
-    mode: dark # Kích hoạt chế độ tối

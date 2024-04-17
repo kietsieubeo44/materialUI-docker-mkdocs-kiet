@@ -6,6 +6,9 @@ LABEL maintainer="Zobair Qauomi https://github.com/ZobairQ"
 RUN apt-get update && apt-get install -y python3-pip
 
 RUN pip3 install mkdocs-material
+# Goi theme mở rong
+RUN pip3 install mkdocs-material[swiss] mkdocs-material[dark]
+
 
 RUN apt-get remove -y python3-pip
 
@@ -14,6 +17,8 @@ COPY mkdocs.yml .
 COPY docs/ ./docs
 # Copy the screenshots directory into the container
 COPY docs/ ./docs/screenshots
+
+
 WORKDIR /doc
 
 EXPOSE 8000
